@@ -17,7 +17,7 @@
         margin: auto;
         display: block;
         margin-bottom: 30px;
-        background: red;
+        background: blue;
     }
 
     .student {
@@ -52,13 +52,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="zoomtools.html">Attendance and Roster Info</a>
+            <a class="nav-link" href="zoomtools.html">Zoom-Tools</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.golfdigest.com/gallery/golf-beginners-tips">Getting into Golf</a>
+            <a class="nav-link" href="http://google.com">Google</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.seattleacademy.org/athletics/sports">SAAS Athletic Info</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -66,13 +66,14 @@
   </nav>
     <div class="container">
         <div class="alert alert-info" role="alert">
-        This is our team roster.
+        This is a info alert—check it out!
         </div>
             <strong></strong> Our 2021 Team Roster.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
         </div>
+        <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
         
         <button id="pickStudent" class='center'>
             Pick Student
@@ -107,8 +108,7 @@
     students.push(makeStudent("jameswebb", "James", "Webb", 9));
     students.push(makeStudent("leodebruhl", "Leo", "DeBruhl", 9));
     students.push(makeStudent("patrickgamble", "Patrick", "Gamble", 9));
-    students.push(makeStudent("daltonlanham", "Dalton", "Lanham", 9));
-    students.push(makeStudent("griffenbell", "Griffin", "Bell", 9));
+   
     //console.log(JSON.stringify(students));
 
     function importStudents(theFile) {
